@@ -1,0 +1,7 @@
+.container.about{
+  overflow: hidden;
+
+  &::before{
+    clip-path: circle(30% at 60% 117%);
+  }
+} 

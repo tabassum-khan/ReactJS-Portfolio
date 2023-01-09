@@ -1,0 +1,151 @@
+.container.contact .contact-form{
+  width: 100%;
+  margin-top: 10%;
+  pointer-events: all;
+
+  ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    li{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      overflow: hidden;
+      display: block;
+      position: relative;
+      opacity: 0;
+      animation: fadeInUp 2s 1s;
+      animation-fill-mode: forwards;
+      width: 100%;
+    }
+
+    li.half{
+      width: 49%;
+
+      &:nth-child(2){
+        margin-left: 2%;
+      }
+    }    
+  }
+
+  label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #ddd; 
+    transform: translateY(-50%);
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    pointer-events: none;
+    // opacity: 0.5;
+    transition: all 0.5s;
+  }
+
+  .input-span::before{
+    content: "";
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background: #04fc43;
+    border-radius: 1px;
+    transition: all 0.5s;
+    z-index: 1;
+  }
+
+  input[type="text"], input[type="email"], textarea{
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    background: linear-gradient(-70deg, rgba(105, 98, 105, 0.6), rgb(17,81,115));
+    border-radius: 1px;
+    border-bottom: 1px solid #115173;
+    font-size: 16px;
+    height: 45px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 1.6rem;
+
+    &:focus ~ label, &:valid ~ label{
+      top: -20px; 
+    }
+
+    &:focus ~ .input-span::before, &:valid ~ .input-span::before{
+      width: 100%;
+    }
+
+    &:invalid ~ .input-span::before{
+      width: 0;
+    }
+  }
+
+  .textarea{
+    textarea{
+      padding: 10px;
+      height: 80px;
+      resize: none;
+    }
+    label{
+      top: 55%;
+      transform: translateY(0%);
+    }
+    .input-span::before{
+      top: 80px;
+      border: 1px;
+    }
+  }
+
+  .response-message{
+    width: 60%;
+    padding: 0 15px;
+    margin-top: 20px;
+    display: none;
+
+    & p{
+      font-size: 1.4rem;
+      color: #fff;
+    }
+    &.show{
+      display: block;
+    } 
+    &.success{
+      p{
+        color: #04fc43;
+      }
+    }
+    &.error{
+      p{
+        color: #f00;
+      }
+    }
+  }
+
+  .submit-button{
+    width: 40%;
+    pointer-events: all;
+    margin-top: 20px;
+    height: 50px;
+
+    .flat-button {
+      min-width: 100%;
+      margin: 0;
+      background: 0 0;
+      border: 0;
+      z-index: 3;
+    }
+    
+    .base{
+      &::after{
+        right: -0.15px;
+      }
+    }
+  }
+}

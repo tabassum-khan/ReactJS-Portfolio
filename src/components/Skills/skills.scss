@@ -1,0 +1,133 @@
+.container.skills{
+  overflow: hidden;
+
+.top-container{
+  display: flex;
+  align-items: center;
+  --clr: #04fc43;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.skills-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 90%;
+  margin: 7% 5%;
+  // padding-left: 7%;
+
+  .skills-card{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(22,22,22, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .percent{
+      position: relative;
+      width: 80px;
+      border-radius: 50%;
+      height: 80px;
+    
+      svg{
+      position: relative;
+      width: 80px;
+      height: 80px;
+      transform: rotate(270deg);
+
+        circle{
+          width: 100%;
+          height: 100%;
+          fill: transparent;
+          stroke: #191919;
+          transform: translate(2px, 2px);
+
+          &:nth-child(2){
+            stroke: var(--clr); 
+            stroke-dasharray: 239; 
+            stroke-dashoffset: calc(239 - (239 * var(--num)) / 100);
+            opacity: 0;
+            animation: fadeInCircle 1s forwards 3s;
+          }
+
+          @keyframes fadeInCircle {
+            0%{
+              opacity: 0;
+            }
+            100%{
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      .dot{
+        position: absolute;
+        inset: 5px;
+        z-index: 10;
+        transform: rotate(calc(3.6deg * var(--num)));
+        animation: animateDot 2s linear 1s forwards;
+        opacity: 1;
+
+        &::before{
+          content: "";
+          position: absolute;
+          width: 7px;
+          height: 7px;
+          left: 50%;
+          top: -6.5px;
+          transform: translateX(-50%);
+          border-radius: 50%;
+          background: var(--clr);
+          box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr);
+        }
+      }
+
+      .number{
+        position: absolute;
+        inset: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 0;
+        animation: fadeInCircle 1s forwards 3s; 
+
+        h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          font-weight: 600;
+          font-size: 1.3em;
+          margin: 0;
+        }
+
+        p{
+          font-weight: 300;
+          font-size: 0.85em;
+          line-height: 2px;
+          color: rgba(255,255,255,0.5);
+        }
+      }
+
+      @keyframes animateDot{
+        0%{
+          transform: rotate(0deg);
+        }
+        100%{
+          transform: rotate(calc(3.6deg * var(--num)));
+        }
+      }
+    }
+  }
+}
+
+}

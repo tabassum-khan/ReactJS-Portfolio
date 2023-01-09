@@ -1,0 +1,49 @@
+{
+  "digisolutions":{
+    "company": "Webtiers DigiSolutions",
+    "designation": "Front-End Developer",
+    "year": "Aug 2015 - Feb 2016",
+    "description": [
+      "Worked on developing a zomato like search and discovery website. ",
+      "Was one of the chief UI/UX designers and aimed at creating a responsive web design",
+      "As a college intern, it was a huge learning experience that started my journey in software development"
+    ],
+    "tech": ["HTML", "CSS", "Bootstrap"]
+  },
+
+  "accenture":{
+    "company": "Accenture Solutions Pvt. Ltd.",
+    "designation": "Associate Software Engineer",
+    "year": "Dec 2017 - Dec 2018",
+    "description": [
+      "Worked on Database Management and Web Developement. Interacted and supported global clients by trobleshooting and analysing root causes at various development stages.",
+      "Successfully accomplished the task of developing a centralised timesheet for better Resource Management",
+      "It helped me get an international exposure and gave me confidence in pursuing my software development career"
+    ],
+    "tech": ["Java", "JSP", "Spring", "HTML", "CSS", "Bootstrap", "NodeJS","SQL", "MongoDb", "Git"]
+  },
+
+  "saif":{
+    "company": "Saif & Brothers",
+    "designation": "Freelancing - Front-End Developer",
+    "year": "Sep 2019 - Jan 2020",
+    "description": [
+      "Worked on Bootstrap, CSS, Javascript",
+      "Made a zomato like front end",
+      "Was a college internship"
+    ],
+    "tech": ["HTML", "CSS", "Bootstrap", "ReactJS"]
+  },
+
+  "hayatt":{
+    "company": "Hayatt Steel Pvt. Ltd.",
+    "designation": "Full Stack Developer",
+    "year": "Aug 2015 - Feb 2016",
+    "description": [
+      "Worked on Bootstrap, CSS, Javascript",
+      "Made a zomato like front end",
+      "Was a college internship"
+    ],
+    "tech": ["HTML", "CSS", "Bootstrap", "ReactJS"]
+  }
+}

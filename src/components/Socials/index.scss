@@ -1,0 +1,33 @@
+.nav-bar{
+  .social-container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 4rem;
+    gap:0.5rem;
+
+    a{
+      display: block;
+      padding: 2.5px 0;
+      font-size: 16.5px;
+
+      svg{
+        color: #4db5ff;
+      }
+
+      &:hover svg{
+        color: #ffd700;
+      }
+    }
+
+    &::after{
+      content: "";
+      width: 1px;
+      height: 3rem;
+      background: #4db5ff;
+
+    }
+  }
+}

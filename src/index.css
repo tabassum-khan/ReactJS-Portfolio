@@ -1,0 +1,33 @@
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 1.4;
+  font-family: 'Helvetica Neue', 'sans-serif'; /* font-weight, font-size/line-height default-font font-style*/
+  color: #444;
+  background: #000;
+  overflow: auto;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+:root{
+  --primary-color: #ffd700;
+  --secondary-color: #4db5ff;
+  --navbar-width: 60px;
+}
+

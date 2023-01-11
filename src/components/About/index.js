@@ -65,7 +65,7 @@ const About = () => {
           >
             Github
           </a>{' '}
-          profile to know more about me.
+          profile to know more.
         </p>
       </div>
 

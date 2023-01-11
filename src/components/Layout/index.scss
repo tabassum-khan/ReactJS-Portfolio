@@ -296,6 +296,11 @@
       }
 
       &.contact {
+        .contact-form .response-message{
+          p{
+            line-height: 50px;
+          }
+        }
         .text-zone{
           top: 0;
         }
@@ -457,21 +462,10 @@
     &.contact{
       padding-bottom: 5%;
       .contact-form{
-        .response-message.show{
+        .response-message{
           width: 100%;
           margin: 0;
           padding: 0;
-          p{
-            margin: 0;;
-          }
-        }
-
-        ul li.half{
-          width: 100%;
-
-          &:nth-child(2){
-            margin-left: 0;
-          }
         }
 
         .submit-button {

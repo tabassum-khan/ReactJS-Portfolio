@@ -73,7 +73,7 @@ const Form = () => {
             <span className="bg"></span>
             <span className="base"></span>
           </li>
-          <li className="response-message show">
+          <li className="response-message">
             <p>'Your message has been successfully sent! Thank you.'</p>
           </li>
         </ul>

@@ -21,7 +21,7 @@ const Contact = () => {
 
   return (
     <div className="container contact">
-      <Canvas1 />
+      {/* <Canvas1 /> */}
 
       <div className="text-zone">
         <h1>

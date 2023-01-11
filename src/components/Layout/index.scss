@@ -319,6 +319,9 @@
 
 @media screen and (max-width:960px) {
 
+    .layout canvas{
+      display: none;
+    }
   // .layout .preloader{
   //   .inner{
   //     width: 40%;

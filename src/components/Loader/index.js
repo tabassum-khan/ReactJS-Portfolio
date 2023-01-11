@@ -7,7 +7,7 @@ import Canvas2 from '../Canvas/Canvas2'
 const Loader = () => {
   return (
     <div className="preloader">
-      <Canvas2 />
+      {/* <Canvas2 /> */}
       <div className="inner">
         <img className="logo-img" src={Logo} alt="logo"></img>
         <img className="sub-logo" src={LogoSubtitle} alt="logo-subtitle"></img>

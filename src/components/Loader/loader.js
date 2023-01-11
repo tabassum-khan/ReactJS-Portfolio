@@ -35,7 +35,9 @@ function slideLoader() {
 }
 
 $(function () {
-  var navLinks = document.querySelectorAll('.nav-bar .nav-link')
+  var navLinks = document.querySelectorAll(
+    '.nav-bar .nav-link, .home .flat-button'
+  )
 
   navLinks.forEach((element) => {
     $(element).on('click', (e) => {

@@ -20,7 +20,7 @@ const About = () => {
 
   return (
     <div className="container about">
-      <Canvas1 />
+      {/* <Canvas1 /> */}
 
       <div className="text-zone">
         <h1>

@@ -465,12 +465,18 @@
             margin: 0;;
           }
         }
-        
-        .submit-button {
-          .flat-button{
-            font-size: 1.2rem;
+
+        ul li.half{
+          width: 100%;
+
+          &:nth-child(2){
+            margin-left: 0;
           }
         }
+
+        .submit-button {
+          width: 100%;
+        }        
       }
     }
 
@@ -549,18 +555,9 @@
     &.contact{
       padding-bottom: 13%;
       .contact-form{
-        ul li.half{
-          width: 100%;
-
-          &:nth-child(2){
-            margin-left: 0;
-          }
-        }
-
         .submit-button {
-          width: 100%;
           .flat-button{
-            width: 100%;
+            font-size: 1.2rem;
           }
         }
       }

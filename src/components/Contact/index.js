@@ -21,7 +21,7 @@ const Contact = () => {
 
   return (
     <div className="container contact">
-      {/* <Canvas1 /> */}
+      <Canvas1 />
 
       <div className="text-zone">
         <h1>
@@ -32,9 +32,8 @@ const Contact = () => {
           />
         </h1>
         <p>
-          I’m interested in freelance opportunities – especially ambitious or
-          large projects. However, if you have other request or question, don’t
-          hesitate to use the form.
+          I’m interested in Software Development opportunities. However, if you
+          have other request or questions, don’t hesitate to use the form.
         </p>
 
         <Form />

@@ -21,15 +21,7 @@
       animation: fadeInUp 2s 1s;
       animation-fill-mode: forwards;
       width: 100%;
-    }
-
-    li.half{
-      width: 49%;
-
-      &:nth-child(2){
-        margin-left: 2%;
-      }
-    }    
+    }  
   }
 
   label{
@@ -105,11 +97,13 @@
 
   .response-message{
     width: 60%;
-    padding: 0 15px;
-    margin-top: 20px;
+    height: 50px;
     display: none;
+    margin-top: 20px;
+    padding: 0 10px;
 
     & p{
+      padding: auto;
       font-size: 1.4rem;
       color: #fff;
     }

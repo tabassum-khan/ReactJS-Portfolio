@@ -16,7 +16,6 @@ const Form = () => {
     e.preventDefault()
 
     showResponse('Sending Message...')
-    console.log(`${process.env.REACT_APP_SERVICE_KEY}`)
 
     emailjs
       .sendForm(
@@ -50,7 +49,7 @@ const Form = () => {
             <span className="input-span"></span>
             <label>Name</label>
           </li>
-          <li className="half">
+          <li>
             <input type="email" name="user_email" required />
             <span className="input-span"></span>
             <label>Email</label>
@@ -74,7 +73,7 @@ const Form = () => {
             <span className="bg"></span>
             <span className="base"></span>
           </li>
-          <li className="response-message">
+          <li className="response-message show">
             <p>'Your message has been successfully sent! Thank you.'</p>
           </li>
         </ul>

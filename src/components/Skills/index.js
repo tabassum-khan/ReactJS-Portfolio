@@ -39,7 +39,7 @@ const Skills = () => {
 
   return (
     <div className="container skills">
-      {/* <Canvas1 /> */}
+      <Canvas1 />
 
       <div className="top-container">
         <div className="text-zone">

@@ -20,7 +20,7 @@ const About = () => {
 
   return (
     <div className="container about">
-      {/* <Canvas1 /> */}
+      <Canvas1 />
 
       <div className="text-zone">
         <h1>
@@ -47,6 +47,25 @@ const About = () => {
         <p>
           I also have a natural inclination to writing and have been exploring
           that hobby by writing technical articles on Medium.
+        </p>
+        <p>
+          Visit my{' '}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/tabassum-khan"
+          >
+            LinkedIn
+          </a>{' '}
+          or{' '}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/tabassum-khan"
+          >
+            Github
+          </a>{' '}
+          profile to know more about me.
         </p>
       </div>
 

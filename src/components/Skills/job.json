@@ -20,30 +20,28 @@
       "Successfully accomplished the task of developing a centralised timesheet for better Resource Management",
       "It helped me get an international exposure and gave me confidence in pursuing my software development career"
     ],
-    "tech": ["Java", "JSP", "Spring", "HTML", "CSS", "Bootstrap", "NodeJS","SQL", "MongoDb", "Git"]
+    "tech": ["Java", "JSP", "Spring", "HTML", "CSS", "Bootstrap", "NodeJS","SQL", "Pl/SQL", "MySQL", "MongoDb", "Git"]
   },
 
   "saif":{
     "company": "Saif & Brothers",
-    "designation": "Freelancing - Front-End Developer",
-    "year": "Sep 2019 - Jan 2020",
+    "designation": "Freelancing - Full Stack Developer",
+    "year": "Mar 2019 - Jun 2020",
     "description": [
-      "Worked on Bootstrap, CSS, Javascript",
-      "Made a zomato like front end",
-      "Was a college internship"
+      "Built a responsive website and used Google Technologies to do analytics and to optimise visibilty. Also made use of Open Graph to integrate the website to Facebook and Twitter",
+      "This being my first freelancing project, it pushed me to work differenty and taught me a lot about time management and productivity"
     ],
-    "tech": ["HTML", "CSS", "Bootstrap", "ReactJS"]
+    "tech": ["HTML", "CSS", "Bootstrap", "JavaScript", "Google Analytics", "Google Search Console", "Open Graph(Facebook & Twtter)" ]
   },
 
   "hayatt":{
     "company": "Hayatt Steel Pvt. Ltd.",
     "designation": "Full Stack Developer",
-    "year": "Aug 2015 - Feb 2016",
+    "year": "Jun 2022 - Dec 2022",
     "description": [
-      "Worked on Bootstrap, CSS, Javascript",
-      "Made a zomato like front end",
-      "Was a college internship"
+      "Worked on the company's website and its subsidiary branches",
+      "Managed a small team of developers to provide backend solutions"
     ],
-    "tech": ["HTML", "CSS", "Bootstrap", "ReactJS"]
+    "tech": ["HTML", "CSS", "Bootstrap", "ReactJS", "WordPress", "Content Writing", "NodeJS", "MongoDb", "SQL", "Git"]
   }
 }

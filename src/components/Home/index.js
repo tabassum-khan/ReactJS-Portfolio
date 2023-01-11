@@ -43,7 +43,7 @@ const Home = () => {
   return (
     <>
       <div className="container home">
-        {/* <Canvas1 /> */}
+        <Canvas1 />
 
         {/**INTRODUCTION TEXT */}
         <div className="text-zone">

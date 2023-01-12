@@ -1,6 +1,6 @@
 # ReactJS Portfolio 
 
-A beautiful, responsive portfolio that has advanced animations built using HTML, CSS, JavaScript, ReactJS, Leaflet Map, EmailJS, WebGL(canvas).
+A beautiful, responsive portfolio that has advanced animations, is built using HTML, CSS, JavaScript, ReactJS, Leaflet Map, EmailJS, WebGL(canvas).
 
 ### 1. Home 
 ![home-page](screenshots/home.png)

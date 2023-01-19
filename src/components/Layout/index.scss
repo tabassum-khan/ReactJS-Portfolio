@@ -314,7 +314,7 @@
         }
 
         .leaflet-container{
-          top: -31%;
+          // top: -31%;
         }
       }
     }        
@@ -430,11 +430,8 @@
     }
 
     &.skills{
-      
-
       &::before{
-        background: linear-gradient(10%, #f00, #f0f);
-        clip-path: circle(20% at 90% 95%);
+        clip-path: circle(20% at 90% 103%);
       }
 
       padding-bottom: 10%;
@@ -442,9 +439,6 @@
         padding-left: 2%;
       }
       .experience-container{
-        &::before{
-          background: linear-gradient(70%, #ffd700, blue);
-        }
         padding-top: 7%;
         left: auto;
 
@@ -540,6 +534,10 @@
     }
 
     &.skills{
+      &::before{
+        clip-path: circle(20% at 90% 107%);
+      }
+        
       .experience-container{
         padding: 0;
         padding-bottom: 50px;

@@ -37,6 +37,7 @@ function canvasSmoke(className) {
   var support_linear_float = _getWebGLContext.support_linear_float
 
   function getWebGLContext(canvas) {
+    //defining params for canvas webgl
     var params = {
       alpha: false,
       depth: false,
@@ -44,10 +45,12 @@ function canvasSmoke(className) {
       antialias: false,
     }
 
+    //Initialising the GL context
     var gl = canvas.getContext('webgl2', params)
 
     var isWebGL2 = !!gl
 
+    //continue only if webgl is available and working
     if (!isWebGL2)
       gl =
         canvas.getContext('webgl', params) ||
@@ -61,6 +64,7 @@ function canvasSmoke(className) {
       support_linear_float = gl.getExtension('OES_texture_float_linear')
     }
 
+    // Set clear color to black, fully opaque
     gl.clearColor(0.0, 0.0, 0.0, 1.0)
 
     var internalFormat = isWebGL2 ? gl.RGBA16F : gl.RGBA
@@ -99,8 +103,11 @@ function canvasSmoke(className) {
         throw new TypeError('Cannot call a class as a function')
 
       this.uniforms = {}
+
+      //creates the program for shaders - vertex(will render vertices) and fragment (will redner colors of those vertices)
       this.program = gl.createProgram()
 
+      //attches both the shaders and links them
       gl.attachShader(this.program, vertexShader)
       gl.attachShader(this.program, fragmentShader)
       gl.linkProgram(this.program)
@@ -130,6 +137,8 @@ function canvasSmoke(className) {
     return GLProgram
   })()
 
+  // creates a shader of the given type, uploads the source and
+  // compiles it.
   function compileShader(type, source) {
     var shader = gl.createShader(type)
 
@@ -142,6 +151,7 @@ function canvasSmoke(className) {
     return shader
   }
 
+  //creating different types of fragmnent and vertex shaders
   var baseVertexShader = compileShader(
     gl.VERTEX_SHADER,
     'precision highp float; precision mediump sampler2D; attribute vec2 aPosition; varying vec2 vUv; varying vec2 vL; varying vec2 vR; varying vec2 vT; varying vec2 vB; uniform vec2 texelSize; void main () {     vUv = aPosition * 0.5 + 0.5;     vL = vUv - vec2(texelSize.x, 0.0);     vR = vUv + vec2(texelSize.x, 0.0);     vT = vUv + vec2(0.0, texelSize.y);     vB = vUv - vec2(0.0, texelSize.y);     gl_Position = vec4(aPosition, 0.0, 1.0); }'

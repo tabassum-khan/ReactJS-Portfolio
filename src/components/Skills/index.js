@@ -77,11 +77,10 @@ const Skills = () => {
       </div>
 
       <div className="experience-container">
-        <ExperienceCard experience={experiences.digisolutions} />
-        <ExperienceCard experience={experiences.accenture} />
-        <ExperienceCard experience={experiences.saif} />
         <ExperienceCard experience={experiences.hayatt} />
-        {/* <ExperienceCard experience={experiences.digisolutions} /> */}
+        <ExperienceCard experience={experiences.saif} />
+        <ExperienceCard experience={experiences.accenture} />
+        <ExperienceCard experience={experiences.digisolutions} />
       </div>
     </div>
   )

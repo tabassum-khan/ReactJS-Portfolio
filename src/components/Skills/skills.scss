@@ -1,5 +1,8 @@
 .container.skills{
   overflow: hidden;
+  &::before{
+    clip-path: circle(20% at 90% 97%);
+  }
 
 .top-container{
   display: flex;

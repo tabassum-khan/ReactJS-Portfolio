@@ -1,4 +1,4 @@
-import React from 'react'
+import { React, useEffect } from 'react'
 import './App.scss'
 import { Routes, Route } from 'react-router-dom'
 import ReactGa from 'react-ga'
@@ -9,9 +9,15 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 
-ReactGa.initialize(`${process.env.REACT_APP_GA_TRACKING_ID}`)
+ReactGa.initialize(`${process.env.REACT_APP_GA_TRACKING_ID}`, { debug: true })
 
 function App() {
+  useEffect(() => {
+    // var host = window.location.hostname
+    // if (host !== 'localhost')
+    ReactGa.pageview(window.location.pathname + window.location.search)
+  }, [])
+
   return (
     <>
       <Routes>

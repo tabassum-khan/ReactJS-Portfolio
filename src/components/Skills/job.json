@@ -20,7 +20,7 @@
       "Reduced considerable amount of time spent on transferring files through FTP by automating and scheduling the services on a server",
       "Interacted with and supported global clients by troubleshooting and analysing root causes at different development stages"
     ],
-    "tech": ["Java", "JSP", "Spring MVC", "HTML", "CSS", "Bootstrap", "NodeJS","SQL", "Pl/SQL", "MySQL", "Git"]
+    "tech": ["Java", "Spring MVC", "HTML", "CSS", "Bootstrap", "NodeJS","SQL", "Pl/SQL", "MySQL", "Git", "Java AWT", "Java Swing"]
   },
 
   "saif":{
@@ -43,6 +43,6 @@
       "Built an interface that monitored inventory levels and stock availability and maintained sale and purchase records. Also automated the tracking of Auctions through Java GUI and reduced 5-6 hours of manual work",
       "It was a great learning experience in leadership and project management as I supervised and led a team of 4-5 developers to meet project deadlines using Agile Scrum Methodology"
     ],
-    "tech": ["HTML", "CSS", "Bootstrap", "ReactJS", "WordPress", "NodeJS", "MongoDb", "WordPress", "Git", "Content Writing"]
+    "tech": ["Java", "HTML", "CSS", "Sass", "Bootstrap", "ReactJS", "WordPress", "NodeJS", "MongoDB", "WordPress", "Git", "Content Writing"]
   }
 }

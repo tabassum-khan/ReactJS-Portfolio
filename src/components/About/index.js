@@ -46,7 +46,15 @@ const About = () => {
         </p>
         <p>
           I also have a natural inclination to writing and have been exploring
-          that hobby by writing technical articles on Medium.
+          that hobby by writing technical articles on{' '}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://medium.com/@tabassum_k"
+          >
+            Medium
+          </a>
+          .
         </p>
         <p>
           Visit my{' '}

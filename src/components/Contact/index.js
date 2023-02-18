@@ -1,7 +1,6 @@
 import './index.scss'
 import Canvas1 from '../Canvas/Canvas1'
 import { useEffect, useState } from 'react'
-import ReactGa from 'react-ga'
 
 import AnimatedLetters from '../AnimatedLetters'
 import Form from '../Form'
@@ -12,8 +11,6 @@ const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
-    ReactGa.pageview(window.location.pathname)
-
     const changeAnimationClass = () => {
       setTimeout(() => {
         setLetterClass('text-animate-hover')

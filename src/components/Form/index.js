@@ -1,6 +1,17 @@
 import { useRef } from 'react'
+import ReactGA from 'react-ga'
+
 import emailjs from '@emailjs/browser'
 import './index.scss'
+
+const eventTrack = (category, action, label) => {
+  console.log('GA event:', category, ':', action, ':', label)
+  ReactGA.event({
+    category: category,
+    action: action,
+    label: label,
+  })
+}
 
 function showResponse(message, className) {
   const response = document.querySelector('.response-message')
@@ -67,6 +78,12 @@ const Form = () => {
           <li className="submit-button">
             <input
               type="submit"
+              onClick={eventTrack.bind(
+                this,
+                'Contact Us',
+                'Contact Us Button',
+                'Button Event'
+              )}
               className="flat-button"
               value="Send Message!"
             />

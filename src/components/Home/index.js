@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import ReactGa from 'react-ga'
 
 import LogoTitle from '../../assets/images/t-logo.png'
 import Canvas1 from '../Canvas/Canvas1'
@@ -33,8 +32,6 @@ const Home = () => {
   ]
 
   useEffect(() => {
-    ReactGa.pageview(window.location.pathname)
-
     const changeAnimationClass = () => {
       return setTimeout(() => {
         setLetterClass('text-animate-hover')

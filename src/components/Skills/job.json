@@ -26,11 +26,7 @@
   "saif":{
     "company": "Saif & Brothers",
     "designation": "Freelancing - Full Stack Developer",
-<<<<<<< HEAD
     "year": "Mar 2019 - Sep 2019",
-=======
-    "year": "Mar 2019 - Jun 2020",
->>>>>>> ce4017485da50790c8e1dad9cd7cf104ab1d78d2
     "description": [
       "Built the company's minimalist and responsive website and employed Google Technologies to analyse and optimise visibility. Also incorporated Open Graph into the website for better social media integration",
       "This being my first freelancing project, it pushed me to work differently and taught me a lot about time management and productivity"
@@ -41,11 +37,7 @@
   "hayatt":{
     "company": "Hayatt Steel Pvt. Ltd.",
     "designation": "Full Stack Developer",
-<<<<<<< HEAD
     "year": "Oct 2022 - Nov 2023",
-=======
-    "year": "Jun 2022 - Dec 2022",
->>>>>>> ce4017485da50790c8e1dad9cd7cf104ab1d78d2
     "description": [
       "Worked with the company and its subsidiary branches to develop software solutions and considerably improved its finance and resource management",
       "Built an interface that monitored inventory levels and stock availability and maintained sale and purchase records. Also automated the tracking of Auctions through Java GUI and reduced 5-6 hours of manual work",

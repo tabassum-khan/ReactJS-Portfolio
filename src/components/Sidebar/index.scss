@@ -1,0 +1,31 @@
+.nav-bar{
+  width: var(--navbar-width);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+
+  .logo{
+    display: block;
+    padding: 0 5px;
+
+    &:hover{
+      .logo-img{
+        animation: rotateIn 0.6s linear both;
+      }      
+    }
+
+    img{
+      display: block;      
+      width: 55px;
+      margin: 8px;
+      height: auto;
+
+      &.sub-logo{
+        width: 70px;
+        margin: 0;
+      }
+    }
+  }
+}

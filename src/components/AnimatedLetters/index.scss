@@ -1,0 +1,35 @@
+.text-animate{
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn 1s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  min-width: 10px;
+
+  &:hover{
+    color: #ffd700;
+  }
+}
+
+.text-animate-hover{
+  min-width: 10px;
+  display: inline-block;
+  pointer-events: all;
+  cursor: pointer;
+
+  &:hover{
+    animation: rubberBand 0.6s;
+    animation-fill-mode: both;
+    animation-timing-function: l  inear;
+    color: #ffd700;
+  }
+}
+
+
+// #{$i} is an interpolation method in Sass that inserts the value of any variable inside sass stylesheet
+@for $i from 1 through 40{
+  .text-animate._#{$i} {
+    animation-delay: #{$i / 10}s;
+  }
+}

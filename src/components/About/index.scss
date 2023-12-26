@@ -1,0 +1,17 @@
+.container.about{
+  overflow: hidden;
+
+  &::before{
+    clip-path: circle(30% at 60% 117%);
+  }
+
+  a{
+    pointer-events: all;
+    color: #ffd700;
+    font-weight: 600;
+
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+} 

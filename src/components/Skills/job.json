@@ -1,0 +1,48 @@
+{
+  "digisolutions":{
+    "company": "Webtiers DigiSolutions",
+    "designation": "Front-End Developer",
+    "year": "Aug 2015 - Feb 2016",
+    "description": [
+      "Worked on developing a zomato like search and discovery website",
+      "Was one of the chief UI/UX designers and aimed at creating a responsive web design",
+      "As a college intern, it was a huge learning experience that started my journey in software development"
+    ],
+    "tech": ["HTML", "CSS", "Bootstrap", "Git"]
+  },
+
+  "accenture":{
+    "company": "Accenture Solutions Pvt. Ltd.",
+    "designation": "Associate Software Engineer",
+    "year": "Dec 2017 - Dec 2018",
+    "description": [
+      "Worked on Database Management, Automation of various services, and Web Development. Accomplished the task of developing a centralised timesheet for better Resource Management",
+      "Reduced considerable amount of time spent on transferring files through FTP by automating and scheduling the services on a server",
+      "Interacted with and supported global clients by troubleshooting and analysing root causes at different development stages"
+    ],
+    "tech": ["Java", "Spring MVC", "HTML", "CSS", "Bootstrap", "NodeJS","SQL", "Pl/SQL", "MySQL", "Git", "Java AWT", "Java Swing"]
+  },
+
+  "saif":{
+    "company": "Saif & Brothers",
+    "designation": "Freelancing - Full Stack Developer",
+    "year": "Mar 2019 - Sep 2020",
+    "description": [
+      "Built the company's minimalist and responsive website and employed Google Technologies to analyse and optimise visibility. Also incorporated Open Graph into the website for better social media integration",
+      "This being my first freelancing project, it pushed me to work differently and taught me a lot about time management and productivity"
+    ],
+    "tech": ["HTML", "CSS", "Bootstrap", "JavaScript", "Google Analytics", "Google Search Console", "Open Graph(Facebook & Twitter)" ]
+  },
+
+  "hayatt":{
+    "company": "Hayatt Steel Pvt. Ltd.",
+    "designation": "Full Stack Developer",
+    "year": "Oct 2022 - Nov 2023",
+    "description": [
+      "Worked with the company and its subsidiary branches to develop software solutions and considerably improved its finance and resource management",
+      "Built an interface that monitored inventory levels and stock availability and maintained sale and purchase records. Also automated the tracking of Auctions through Java GUI and reduced 5-6 hours of manual work",
+      "It was a great learning experience in leadership and project management as I supervised and led a team of 4-5 developers to meet project deadlines using Agile Scrum Methodology"
+    ],
+    "tech": ["Java", "HTML", "CSS", "Sass", "Bootstrap", "ReactJS", "WordPress", "NodeJS", "MongoDB", "WordPress", "Git", "Content Writing"]
+  }
+}
